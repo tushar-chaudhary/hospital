@@ -1,0 +1,99 @@
+
+html,body{
+	background-color: #ffeead;
+	height:100%;
+	
+}
+.size{
+	background-size: 85%;
+}
+#name{
+font-family: Italianno,cursive;
+color: grey;
+font-size: 40px;
+margin:0px;
+}
+.container{
+	height:100vh;
+	max-width:100%;
+	margin:0px;
+	padding:0px;
+	display:grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(12 , 1fr);
+	grid-template-rows: 80px 60px auto;
+	grid-template-areas: 
+	                    "h h h h h h h h h h h h"
+	                    "n n n n n n n n n n n n"
+	                    ". . . s s s s s s . . .";
+	                }
+
+.header{
+	display:flex;
+	grid-area:h;
+
+}
+#name{
+	font-family: helvetica;
+	letter-spacing:4px;
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.navigation{
+	display:flex;
+	grid-area:n;
+	
+	list-style-type: none;
+	border-bottom:5px solid #F05F44;
+}
+
+.mar{
+	margin-left:auto;
+
+}
+a{
+	font-size: 20px;
+	color:	#a5f;
+	text-decoration: none;
+	font-weight: 500;
+	
+}
+a:hover{
+	color: hotpink;
+}
+
+
+.signupform{
+	background-color:;
+	grid-area:s;
+	
+}
+.btn{
+	border-radius: 500px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding:15px;
+}
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+  .btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+ }
+ }
+main{
+	margin-top:120px;
+}
+
+article{
+    padding:50px;
+	color:	#00FF7F;
+	text-align: center;
+	font-family: 'Sofia';
+	font-size: 25px; 
+
+}
